@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const MongoClient = require('mongodb'); // can delete may not need
+const MongoClient = require('mongodb').MongoClient(); // can delete may not need
 const mongoose = require('mongoose');
 
 require('dotenv').config();
